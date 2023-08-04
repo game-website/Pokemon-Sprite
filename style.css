@@ -1,0 +1,31 @@
+.displayGrid
+{
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, 284px);
+    grid-gap: 2px; 
+    justify-content: center;
+}
+.pokeContainer 
+{
+    position: relative;
+}
+.pokeName
+{
+    /* display: none; */
+    grid-template-columns: auto auto auto;
+    position: relative;
+    /* margin-top: -30px; 
+    top: 30px; */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    /* width: 200px; */
+    font-weight: 400;
+    font-size:  18px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* background: white; */
+    color: #363636;
+    z-index: -1; 
+    padding: 3px;
+    border-radius: 5px;
+}
